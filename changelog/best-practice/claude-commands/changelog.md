@@ -361,3 +361,84 @@ No priority action items — report is fully in sync with official documentation
 |---|----------|------|--------|--------|
 | 1 | HIGH | New Command | Add `/fork <directive>` to Session tag — Spawn a forked subagent that inherits the full conversation and works on the directive while you keep going (standalone since v2.1.161; previously alias of `/branch`) | ✅ COMPLETE (added as #76 in Session tag; alias reference removed from `/branch` row; downstream rows 76-82 renumbered to 77-83; count updated 82 → 83) |
 | 2 | MED | Changed Description | Update `/terminal-setup` — replace "Windsurf" with "Devin Desktop" (renamed in v2.1.162) | ✅ COMPLETE (updated description at #17 in Config tag) |
+
+---
+
+## [2026-06-05 11:07 AM PKT] Claude Code v2.1.165
+
+No priority action items — report is fully in sync with official documentation (16 frontmatter fields, 83 built-in commands).
+
+---
+
+## [2026-06-06 11:05 AM PKT] Claude Code v2.1.167
+
+No priority action items — report is fully in sync with official documentation (16 frontmatter fields, 83 built-in commands).
+
+---
+
+## [2026-06-07 11:04 AM PKT] Claude Code v2.1.168
+
+No priority action items — report is fully in sync with official documentation (16 frontmatter fields, 83 built-in commands).
+
+---
+
+## [2026-06-08 11:05 AM PKT] Claude Code v2.1.168
+
+No priority action items — report is fully in sync with official documentation (16 frontmatter fields, 83 built-in commands).
+
+---
+
+## [2026-06-09 11:04 AM PKT] Claude Code v2.1.169
+
+| # | Priority | Type | Action | Status |
+|---|----------|------|--------|--------|
+| 1 | HIGH | New Command | Add `/cd [path]` to Session tag — Move the session to a new working directory without breaking the prompt cache | ✅ COMPLETE (added as #73 in Session tag; downstream rows 73–83 renumbered to 74–84; count updated 83 → 84) |
+
+---
+
+## [2026-06-10 11:05 AM PKT] Claude Code v2.1.170
+
+| # | Priority | Type | Action | Status |
+|---|----------|------|--------|--------|
+| 1 | HIGH | New Command | Add `/advisor [model\|off]` to Model tag — Enable or disable the advisor tool which consults a second model for guidance at key moments | ✅ COMPLETE (added as #47 in Model tag; downstream rows 47–84 renumbered 48–85; count updated 84 → 85) |
+
+---
+
+## [2026-06-11 11:09 AM PKT] Claude Code v2.1.173
+
+| # | Priority | Type | Action | Status |
+|---|----------|------|--------|--------|
+| 1 | MED | Changed Description | Update `/review` — official docs updated cross-reference from `/ultrareview` to `/code-review ultra` | ✅ COMPLETE (updated description at #57 in Project tag) |
+| 2 | MED | Changed Description | Update `/ultrareview` — official docs now note preferred invocation is `/code-review ultra`; `/ultrareview` remains as an alias | ✅ COMPLETE (updated description at #60 in Project tag) |
+
+---
+
+## [2026-06-12 11:08 AM PKT] Claude Code v2.1.175
+
+| # | Priority | Type | Action | Status |
+|---|----------|------|--------|--------|
+| 1 | MED | Changed Argument | Update `/clear` — add `[name]` optional arg to label the previous conversation for retrieval via `/resume` | ✅ COMPLETE (updated signature and description at #75 in Session tag) |
+| 2 | MED | Changed Argument | Update `/context` — add `[all]` optional arg to expand the full context breakdown | ✅ COMPLETE (updated signature and description at #21 in Context tag) |
+| 3 | LOW | Changed Argument | Update `/cd` — change `[path]` (optional) to `<path>` (required) per official docs | ✅ COMPLETE (updated signature at #74 in Session tag) |
+| 4 | LOW | Changed Description | Update `/color` — add "run without an argument to pick a random color" per official docs | ✅ COMPLETE (appended random-color note at #6 in Config tag) |
+| 5 | LOW | Changed Description | Update `/remote-env` — reworded from "Configure the default remote environment for web sessions started with `--remote`" to "Choose the default environment for cloud agents" | ✅ COMPLETE (updated description at #67 in Remote tag) |
+
+---
+
+## [2026-06-13 11:07 AM PKT] Claude Code v2.1.176
+
+| # | Priority | Type | Action | Status |
+|---|----------|------|--------|--------|
+| 1 | LOW | Scope Decision | 11 bundled skills/workflows (`/batch`, `/claude-api`, `/code-review`, `/debug`, `/deep-research`, `/fewer-permission-prompts`, `/loop`, `/run`, `/run-skill-generator`, `/simplify`, `/verify`) listed in upstream unified table but excluded per report scope; `/deep-research` (Workflow) appears for first time in findings | ❌ INVALID (recurring from v2.1.107/119/139/145/150 — report intentionally scoped to built-in commands only; `/deep-research` is a bundled Workflow and stays excluded) |
+
+---
+
+## [2026-06-14 11:06 AM PKT] Claude Code v2.1.176
+
+No priority action items — report is fully in sync with official documentation (16 frontmatter fields, 85 built-in commands).
+
+---
+
+## [2026-06-15 11:09 AM PKT] Claude Code v2.1.176
+
+No priority action items — report is fully in sync with official documentation (16 frontmatter fields, 85 built-in commands).
